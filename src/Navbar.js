@@ -28,10 +28,10 @@ const Navbar = () => {
             }
             id="example-navbar-danger"
           >
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto sm:p-0 p-4">
+            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto sm:p-0 p-4 bg-white ">
               <li className="nav-item">
                 <a
-                  className="sm:px-3 py-2 flex items-center text-base uppercase font-bold leading-snug  hover:opacity-75"
+                  className="sm:px-3 py-2 flex items-center text-base leading-snug  hover:opacity-75"
                   href="#men"
                 >
                   <span className="ml-2">Men</span>
@@ -39,7 +39,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a
-                  className="sm:px-3 py-2 flex items-center text-base uppercase font-bold leading-snug  hover:opacity-75"
+                  className="sm:px-3 py-2 flex items-center text-base leading-snug  hover:opacity-75"
                   href="#women"
                 >
                   <span className="ml-2">Women</span>
@@ -47,19 +47,16 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a
-                  className="sm:px-3 py-2 flex items-center text-base uppercase font-bold leading-snug  hover:opacity-75"
+                  className="sm:px-3 py-2 flex items-center text-base leading-snug  hover:opacity-75"
                   href="#about"
                 >
                   <span className="ml-2">About</span>
                 </a>
               </li>
-              <li className="nav-item">
-                <a
-                  className="sm:px-3 py-2 flex items-center text-base uppercase font-bold leading-snug  hover:opacity-75"
-                  href="#signup"
-                >
-                  <span className="ml-2">Sign Up</span>
-                </a>
+              <li className="nav-item sm:ml-2">
+                <button className="px-7 py-2 rounded  flex items-center text-base bg-[#1750FF] text-white leading-snug  hover:opacity-75">
+                  Sign Up
+                </button>
               </li>
             </ul>
           </div>

@@ -18,7 +18,7 @@ const Products = () => {
           tabIndex={0}
           className="collapse collapse-arrow border mt-5 rounded-box shadow-md"
         >
-          <div className="collapse-title text-xl font-medium p-3 shadow-2xl">
+          <div className="collapse-title text-xl font-medium p-3 ">
             <div className="card card-side">
               <figure className="sm:w-24 pr-2 sm:pr-0 ">
                 <img src="https://placeimg.com/200/280/arch" alt="Movie" />
