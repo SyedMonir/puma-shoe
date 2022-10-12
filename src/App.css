@@ -1,0 +1,7 @@
+
+
+@media (max-width: 700px) {
+    .collapse-arrow .collapse-title::after, .collapse-content {
+        display: none;
+    }
+  }
